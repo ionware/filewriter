@@ -1,7 +1,29 @@
 {
-	"autoload": {
+  "name": "ionware/filewriter",
+  "type": "package",
+  "description": "Quick and simple writing to files",
+  "keywords": [
+    "writing",
+    "file"
+  ],
+  "authors": [
+    {
+      "name": "Adedeji Stephen",
+      "email": "ionwarez@gmail.com",
+      "homepage": "https://github.com/ionware",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/ionware/filewriter",
+  "license": "MIT",
+
+  "autoload": {
 		"psr-4": {
 			"FileWriter\\": "src/"
 		}
-	}
+	},
+  "version": "1.0.0",
+  "require": {
+    "php": "^5.4"
+  }
 }
