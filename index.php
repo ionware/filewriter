@@ -2,8 +2,12 @@
 
 require "vendor/autoload.php";
 
+use FileWriter\FileWriter;
 
-$fileWriter = \FileWriter\FileWriter::open(__DIR__."/demofile");
+//Get an Instance of the Filewriter.
+$fileWriter = FileWriter::open(__DIR__."/demofile");
 
-$fileWriter->append("127.0.0.1\texchanger.ru")->save();
+$fileWriter->append("127.0.0.1\texchanger.ru")
+    ->prepend("127.0.0.1\tapms.dev")
+    ->save();
 
