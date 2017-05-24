@@ -1,7 +1,7 @@
 {
   "name": "ionware/filewriter",
   "type": "package",
-  "description": "Quick and simple writing to files",
+  "description": "Quick and simple writing of text to files",
   "keywords": [
     "writing",
     "file"
