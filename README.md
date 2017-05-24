@@ -1,5 +1,5 @@
 ## Simple Filewriter for PHP
-> #### Provides quick and easy approach to open and writes to Files. :octocat
+> #### Provides quick and easy approach to open and writes text to Files.
 ### Installation
 You will need to have `PHP ~5.4` and `composer` installed.
 >Simply use composer in your **Terminal**

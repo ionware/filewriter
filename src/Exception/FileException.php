@@ -11,5 +11,5 @@ use Exception;
 class FileException extends Exception
 {
 
-    //Silent is better
+    //Silent is Golden
 }
