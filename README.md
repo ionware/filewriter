@@ -1,13 +1,13 @@
 ## Simple Filewriter for PHP
 > #### Provides quick and easy approach to open and writes to Files. :octocat
-##### Installation
+### Installation
 You will need to have `PHP ~5.4` and `composer` installed.
 >Simply use composer in your **Terminal**
 ```
 composer require ionware/filewriter
 ```
 
-#####Usage
+### Usage
 Create an Instance of the `fileWriter` and start writing.
 ```php
 <?php
@@ -26,5 +26,5 @@ $fileWriter->append("127.0.0.1\texchanger.ru")
 
 ```
 
-#####License
+### License
 The MIT License (MIT). See [License file](LICENSE.md) for more information.
